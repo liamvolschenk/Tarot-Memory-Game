@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Tarot Card Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contents
 
-## Available Scripts
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#about-the-game">About the Game</a></li>
+</ul>
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+This is a simple but fun memory card game. All you need to do is match all of the corresponding tarot cards to win!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+There are 9 matches that you need to make, have fun and challenge your friends to see who can match all of the cards the fastest.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+if you do not have it, install Node.js;
+ 
+Once you have downloaded the project files, change to the app directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```cd memory-game-app```
 
-### `npm run build`
+then install the necessary modules by running:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```npm install```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+then once the app has installed the necessary modules, view the app by running:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```npm start```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This game is very simple to play, just click on the cards, they will then flip over. The goal is to match all 9 pairs of the tarot cards.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you click on a card that has already been clicked, it will turn back over. When you match a pair, they will stay facing up. Once you have matched all of the 
+pairs, you will get a message congragulating you, and you will have the option to play again.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you need any help, simply press the "HELP" button at the top of the screen.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="./src/screenshots/app-screenshot.png" alt="App" style="height: 500px;"/>
+<img src="./src/screenshots/app-screenshot-2.png" alt="App" style="height: 500px;"/>
+<img src="./src/screenshots/app-screenshot-3.png" alt="App" style="height: 500px;"/>
+<img src="./src/screenshots/app-screenshot-4.png" alt="App" style="height: 500px;"/>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## About the game
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app was built using:
+* [React](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com)
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Liam Volschenk - liamvolschenk@gmail.com

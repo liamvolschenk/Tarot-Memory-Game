@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+/*Some basic styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body {
+    background-image: url("./Images/bg.gif");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100vw;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .game-title {
+    font-family: "PT Serif";
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 250, 212);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(170, 170, 170);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .game {
+    display: flex;
+    height: 610px;
+    justify-content: center;
+    align-items: center;
   }
-}
+  
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 900px;
+    position: relative;
+    bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-front {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 185px;
+    width: 110px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .image-back {
+    background: url("./Images/back.jpeg") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 185px;
+    width: 110px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .game-over {
+    position: relative;
+    bottom: 713px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 40vw;
+    background: white;
+  }
+  
+
+  .help {
+    position: relative;
+    left:610px;
+  }
+
