@@ -4,8 +4,9 @@
 
 <ul>
 <li><a href="#about">About</a></li>
+ <li><a href="#usage">Usage</a></li>
 <li><a href="#installation">Installation</a></li>
-<li><a href="#usage">Usage</a></li>
+<li><a href="#gameplay">Game-play</a></li>
 <li><a href="#about-the-game">About the Game</a></li>
 </ul>
 
@@ -14,6 +15,14 @@
 This is a simple but fun memory card game. All you need to do is match all of the corresponding tarot cards to win!
 
 There are 9 matches that you need to make, have fun and challenge your friends to see who can match all of the cards the fastest.
+
+## Usage
+
+If you are an end-user please check out the following link to play the game:
+
+https://tranquil-castle-26278.herokuapp.com/
+
+If you would like to view and play with the source code, please download the code from the link above and follow the instillation structions below:
 
 ## Installation
 
@@ -31,7 +40,7 @@ then once the app has installed the necessary modules, view the app by running:
 
 ```npm start```
 
-## Usage
+## Gameplay
 
 This game is very simple to play, just click on the cards, they will then flip over. The goal is to match all 9 pairs of the tarot cards.
 
